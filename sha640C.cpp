@@ -112,6 +112,6 @@ int main(int argc, char* argv[]) {
         data = argv[1];
     }
     
-    std::cout << "SHA-640: " << sha640(data) << std::endl;
+    std::cout << sha640(data) << std::endl;
     return 0;
 }
